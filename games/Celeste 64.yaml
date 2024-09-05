@@ -1,0 +1,23 @@
+Celeste 64:
+  move_shuffle:
+    'false': 3
+    'true': 2
+  total_strawberries: random-high
+  strawberries_required_percentage: random-range-70-90
+  friendsanity:
+    'false': 3
+    'true': 2
+  signsanity:
+    'false': 3
+    'true': 2
+  carsanity:
+    'false': 3
+    'true': 2
+  triggers:
+    - option_category: null
+      option_name: name
+      option_result: Player{player}
+      options:
+        null:
+          name: Celeste64-{player}
+
